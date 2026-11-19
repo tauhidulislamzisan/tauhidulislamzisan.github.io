@@ -1,0 +1,253 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> AI-assisted development workflow analysis | Tauhidul Islam Zisan </title> <meta name="author" content="Tauhidul Islam Zisan"> <meta name="description" content="Token-economy study for the ATLAS repository (2026)"> <meta name="keywords" content="Tauhidul Islam Zisan, computer science, artificial intelligence, large language models, retrieval-augmented generation, full-stack engineering"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8E%93&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://tauhidulislamzisan.github.io/projects/atlas-token-analysis/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/al_email_protect/css/email-protect.css"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Tauhidul Islam Zisan </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">AI-assisted development workflow analysis</h1> <p class="post-description">Token-economy study for the ATLAS repository (2026)</p> </header> <article> <p>An analysis of what AI coding agents read and what it costs across the ATLAS repository’s todo-driven development pipeline, and a set of changes to reduce waste without losing grounding.</p> <ul> <li> <strong>Method:</strong> inventoried every instruction document, command and skill in the agent chain, sampled six completed todos and verified their claimed outputs against the code (9 of 9 spot-checked files matched), and tallied documentation-reading gates across 291 completed todos.</li> <li> <strong>Findings and fixes:</strong> identified the main cost sinks (very large source files read whole, a stale second documentation scheme, an ever-growing todo listing) and proposed five concrete fixes, such as section maps for large files and splitting an oversized testing guide.</li> <li> <strong>Workflow design:</strong> wrote operating principles for mixed agent tooling on a shared branch, plus drafts of two commands, one that lets a domain expert supply the knowledge to cut planning cost and one that records a small token review per completed todo and feeds aggregated findings back into the process.</li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Tauhidul Islam Zisan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Peer-reviewed and other publications, in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Selected products, systems and coursework.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Education, experience, publications, projects, skills and awards.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "news-graduated-with-a-b-sc-in-computer-science-and-technology-from-changsha-university-of-science-and-technology",
+          title: 'Graduated with a B.Sc. in Computer Science and Technology from Changsha University of...',
+          description: "",
+          section: "News",},{id: "news-started-as-full-stack-ai-developer-and-development-team-lead-on-atlas-moving-to-full-time-in-november-2025",
+          title: 'Started as Full-Stack AI Developer and development team lead on ATLAS, moving to...',
+          description: "",
+          section: "News",},{id: "news-co-founded-flash-dsm-a-design-system-product-for-ai-assisted-ui-generation",
+          title: 'Co-founded Flash DSM, a design-system product for AI-assisted UI generation.',
+          description: "",
+          section: "News",},{id: "projects-arrhythmia-classifier-comparison",
+          title: 'Arrhythmia classifier comparison',
+          description: "Machine Learning coursework (2024)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/arrhythmia/";
+            },},{id: "projects-atlas-3d-integration-sandbox",
+          title: 'ATLAS 3D integration sandbox',
+          description: "Integration harness for the ATLAS 3D module",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/atlas-3d-sandbox/";
+            },},{id: "projects-atlas-api-optimisation-and-architecture-review",
+          title: 'ATLAS API optimisation and architecture review',
+          description: "Planning and review work for ATLAS (2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/atlas-api-optimization/";
+            },},{id: "projects-ai-assisted-development-workflow-analysis",
+          title: 'AI-assisted development workflow analysis',
+          description: "Token-economy study for the ATLAS repository (2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/atlas-token-analysis/";
+            },},{id: "projects-atlas",
+          title: 'ATLAS',
+          description: "Test management platform (Jul 2025 to present)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/atlas/";
+            },},{id: "projects-similarity-search-clustering-and-pattern-mining-labs",
+          title: 'Similarity search, clustering and pattern mining labs',
+          description: "Big Data coursework, 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bigdata-labs/";
+            },},{id: "projects-bock-lighting-headless-web-platform",
+          title: 'Bock Lighting headless web platform',
+          description: "Client project at Cocoon (2021 to 2023)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bock-platform/";
+            },},{id: "projects-bock-lighting-3d-product-builder",
+          title: 'Bock Lighting 3D product builder',
+          description: "Client project at Cocoon (2023)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bock3d/";
+            },},{id: "projects-bock-internal-admin-dashboard",
+          title: 'Bock internal admin dashboard',
+          description: "Client project at Cocoon (2021 to 2022)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bockdash/";
+            },},{id: "projects-collaborative-filtering-and-graph-ranking",
+          title: 'Collaborative filtering and graph ranking',
+          description: "Big Data coursework (2024)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/collaborative-filtering/";
+            },},{id: "projects-compiler-front-end-labs",
+          title: 'Compiler front-end labs',
+          description: "Compiler Principles coursework, 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/compiler-frontend/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/embedded-systems/";
+            },},{id: "projects-exo-and-gcred-token-smart-contracts",
+          title: 'EXO and GCRED token smart contracts',
+          description: "Solidity and Hardhat contracts (2023)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/exo-smart-contracts/";
+            },},{id: "projects-flash-dsm-genome-ai",
+          title: 'Flash DSM / Genome AI',
+          description: "Design-system product (May 2026 to present)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/flash-dsm/";
+            },},{id: "projects-goaldenview-backend-and-data-platform",
+          title: 'GoaldenView backend and data platform',
+          description: "Football data and ranking API (2024 to 2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gv-backend/";
+            },},{id: "projects-goaldenview-mobile-app-and-landing-page",
+          title: 'GoaldenView mobile app and landing page',
+          description: "Prototypes for GoaldenView (2024 to 2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gv-mobile-landing/";
+            },},{id: "projects-goaldenview-web-app",
+          title: 'GoaldenView web app',
+          description: "Next.js football popularity platform (2024)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gv-web/";
+            },},{id: "projects-goaldenview-popularity-ranking",
+          title: 'GoaldenView Popularity Ranking',
+          description: "Weekly footballer popularity rankings (Jan 2024 to Mar 2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gvpr/";
+            },},{id: "projects-motion-cloud-front-end",
+          title: 'Motion Cloud front end',
+          description: "Client project (May to August 2023)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/motioncloud/";
+            },},{id: "projects-node2vec-node-classification",
+          title: 'Node2Vec node classification',
+          description: "Big Data coursework, 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/node2vec/";
+            },},{id: "projects-product-configurator-hero",
+          title: 'Product configurator hero',
+          description: "Client prototype at Cocoon (2023)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/product-configurator/";
+            },},{id: "projects-readings-app-dashboard",
+          title: 'Readings app dashboard',
+          description: "Client project (2024)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/readings-dashboard/";
+            },},{id: "projects-seerteach-ai",
+          title: 'SeerTeach AI',
+          description: "Multimodal educational correction (Aug to Nov 2025)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/seerteach/";
+            },},{id: "projects-stm32-interface-experiments",
+          title: 'STM32 interface experiments',
+          description: "Interface Technology coursework, 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stm32-interfacing/";
+            },},{id: "projects-efficient-school-management-system",
+          title: 'Efficient School Management System',
+          description: "Undergraduate thesis (June 2025)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/thesis/";
+            },},{id: "projects-tradersup-wordpress-site",
+          title: 'TradersUp WordPress site',
+          description: "Client project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tradersup/";
+            },},{id: "projects-tree-based-ensemble-comparison",
+          title: 'Tree-based ensemble comparison',
+          description: "Machine Learning coursework, 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tree-ensembles/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%7A%69%73%61%6E%31%33%34%30%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/tauhidulislamzisan", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ti-zisan", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-0565-2440", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=zPvJ6OEAAAAJ", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> <script defer src="/assets/al_email_protect/js/email-protect.js"></script> </body> </html>
