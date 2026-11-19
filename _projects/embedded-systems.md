@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embedded systems: ARM and GPIO
+title: "Embedded systems: ARM and GPIO"
 description: Embedded systems coursework (June 2024)
 importance: 9
 category: academic
