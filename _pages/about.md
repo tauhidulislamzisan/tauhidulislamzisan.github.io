@@ -6,6 +6,8 @@ subtitle: Computer scientist and AI / full-stack engineer. Seeking master's rese
 
 profile:
   align: right
+  image: prof_pic.jpg
+  image_circular: false
   more_info: >
     <p>B.Sc. Computer Science and Technology, Changsha University of Science and Technology (2025)</p>
     <p>Co-founder, <a href="https://flashdsm.com" target="_blank">Flash DSM</a></p>
