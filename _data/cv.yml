@@ -129,6 +129,18 @@ cv:
       - name: Efficient School Management System (undergraduate thesis)
         summary: Django school-management system with role-based workflows for administrators, students and lecturers, including a Random Forest component for student-score prediction.
         date: 2025-06
+      - name: Machine Learning coursework, arrhythmia classifier comparison
+        summary: Six classifiers (kNN, logistic regression, decision tree, linear SVM, kernel SVM, Random Forest), with and without PCA, on the UCI Arrhythmia dataset (12 configurations).
+        date: 2024
+      - name: Big Data coursework, collaborative filtering and graph ranking
+        summary: User- and item-based collaborative filtering on a 610-user, 9,724-movie ratings matrix; SVD and CUR decomposition; PageRank comparison with NetworkX.
+        date: 2024
+      - name: Embedded systems coursework, ARM and GPIO
+        summary: ARM instruction practice and GPIO interfacing for sensors and actuators.
+        date: 2024-06
+      - name: More projects
+        url: https://tauhidulislamzisan.github.io/projects/
+        summary: Further client, product and coursework projects are described on the projects page.
 
     Skills:
       - name: Programming languages

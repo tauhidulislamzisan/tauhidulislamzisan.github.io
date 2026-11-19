@@ -36,4 +36,4 @@ I currently lead development of [ATLAS](/projects/), a test management platform,
 
 These are the directions I want to study in a master's programme; they are interests rather than a record of completed research. My one publication so far is on [AI and big data in auditing](/publications/) (2024).
 
-You can find my [CV](/cv/), [projects](/projects/) and contact links on this site.
+The [projects](/projects/) page covers product and client work as well as coursework, and my [CV](/cv/) has the full record.

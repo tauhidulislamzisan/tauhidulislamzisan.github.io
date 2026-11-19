@@ -6,4 +6,8 @@ importance: 5
 category: products
 ---
 
-Built an interactive 3D product builder and company website for Bock Lighting (Ohio, USA), using JavaScript and Python/Flask, while working at Cocoon.
+**When:** 2023 · **Organisation:** Cocoon (remote) · **Client:** Bock Lighting, Ohio, USA
+
+**Stack:** JavaScript, Python/Flask.
+
+An interactive 3D product builder and company website for a US lighting manufacturer. It was one of the client projects I worked on at Cocoon, where I progressed from junior developer to senior developer and project manager.
